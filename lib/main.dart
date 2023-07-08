@@ -27,8 +27,8 @@ class WeatherPage extends StatefulWidget {
 }
 
 class _WeatherPageState extends State<WeatherPage> {
-  String apiKey = '6db9fdf7b67c0f7e20fc0c62541196c5';
-  String city = 'Solo';
+  String apiKey = '5e2e64cae7523f3a5e344499bf6813d6';
+  String city = 'Bekasi';
   String weather = '';
   String temperature = '';
   String formattedDate = '';
@@ -67,7 +67,7 @@ class _WeatherPageState extends State<WeatherPage> {
         decoration: BoxDecoration(
           image: DecorationImage(
             image: NetworkImage(
-                'https://images.unsplash.com/photo-1614683574648-cc1d61a8cd52?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=386&q=80'),
+                'https://images.unsplash.com/photo-1564754943164-e83c08469116?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80'),
             fit: BoxFit.cover,
           ),
           gradient: LinearGradient(
